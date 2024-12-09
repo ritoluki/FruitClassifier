@@ -19,7 +19,7 @@ To get started with this project, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/fruit-classification.git
+   git clone https://github.com/ritoluki/fruit-classification.git
    cd fruit-classification
 2. **Install the necessary dependencies:**
 You can install the required libraries using pip:
