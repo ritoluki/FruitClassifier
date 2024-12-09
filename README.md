@@ -87,14 +87,14 @@ model.load_state_dict(torch.load('fruit_classifier.pth'))
 model.eval()
 Project Structure
 graphql
-
-fruit-classification/
-├── data/                # Dataset folder containing train, valid, test data
-├── train.py             # Script to train the model
-├── model.py             # Define the CNN model (SimpleCNN)
-├── requirements.txt     # List of dependencies
-├── README.md            # Project documentation
-└── fruit_classifier.pth # Trained model weights
+         ```bash
+         fruit-classification/
+         ├── data/                # Dataset folder containing train, valid, test data
+         ├── train.py             # Script to train the model
+         ├── model.py             # Define the CNN model (SimpleCNN)
+         ├── requirements.txt     # List of dependencies
+         ├── README.md            # Project documentation
+         └── fruit_classifier.pth # Trained model weights
 License
 This project is open-source and available under the MIT License.
 
