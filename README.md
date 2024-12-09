@@ -23,10 +23,9 @@ To get started with this project, follow these steps:
    cd fruit-classification
 2. **Install the necessary dependencies:**
 You can install the required libraries using pip:
-
-  ```bash
-  pip install -r requirements.txt
-  Here is the list of required packages:
+     ```bash
+     pip install -r requirements.txt
+     Here is the list of required packages:
 
    torch
    torchvision
