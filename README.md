@@ -39,26 +39,26 @@ If you don't have a requirements.txt file yet, you can create it by running pip 
 Dataset
 The dataset used in this project contains images of fruits stored in different folders, each corresponding to a fruit class. For example:
 
-```bash
-data/
-  train/
-    Apple/
-    Banana/
-    Grape/
-    Mango/
-    Strawberry/
-  valid/
-    Apple/
-    Banana/
-    Grape/
-    Mango/
-    Strawberry/
-  test/
-    Apple/
-    Banana/
-    Grape/
-    Mango/
-    Strawberry/
+   ```bash
+   data/
+     train/
+       Apple/
+       Banana/
+       Grape/
+       Mango/
+       Strawberry/
+     valid/
+       Apple/
+       Banana/
+       Grape/
+       Mango/
+       Strawberry/
+     test/
+       Apple/
+       Banana/
+       Grape/
+       Mango/
+       Strawberry/
 Please make sure that you have the dataset organized in this format and update the paths in the code accordingly.
 
 1. Usage
@@ -70,15 +70,15 @@ To train the model, run the following Python script:
 python train.py
 This will start training the Convolutional Neural Network (CNN) model for 10 epochs. During training, the loss and validation accuracy will be printed for each epoch.
 
-Model Evaluation:
+2. Model Evaluation:
 
 After training, the model is evaluated on the test dataset to check its accuracy. You can also visualize the predictions if needed.
 
-Saving the Model:
+3. Saving the Model:
 
 Once training is complete, the model's state_dict (parameters) will be saved in the fruit_classifier.pth file.
 
-Loading the Model:
+4. Loading the Model:
 
 You can load the trained model using the following code:
 
