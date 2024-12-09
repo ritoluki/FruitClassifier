@@ -81,10 +81,10 @@ Once training is complete, the model's state_dict (parameters) will be saved in 
 
 You can load the trained model using the following code:
 
-```python
-model = SimpleCNN()
-model.load_state_dict(torch.load('fruit_classifier.pth'))
-model.eval()
+         ```python
+         model = SimpleCNN()
+         model.load_state_dict(torch.load('fruit_classifier.pth'))
+         model.eval()
 Project Structure
          ```graphql
          fruit-classification/
