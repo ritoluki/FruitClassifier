@@ -38,26 +38,26 @@ If you don't have a requirements.txt file yet, you can create it by running pip 
 Dataset
 The dataset used in this project contains images of fruits stored in different folders, each corresponding to a fruit class. For example:
 
-   ```bash
-   data/
-     train/
-       Apple/
-       Banana/
-       Grape/
-       Mango/
-       Strawberry/
-     valid/
-       Apple/
-       Banana/
-       Grape/
-       Mango/
-       Strawberry/
-     test/
-       Apple/
-       Banana/
-       Grape/
-       Mango/
-       Strawberry/
+      ```bash
+      data/
+        train/
+          Apple/
+          Banana/
+          Grape/
+          Mango/
+          Strawberry/
+        valid/
+          Apple/
+          Banana/
+          Grape/
+          Mango/
+          Strawberry/
+        test/
+          Apple/
+          Banana/
+          Grape/
+          Mango/
+          Strawberry/
 Please make sure that you have the dataset organized in this format and update the paths in the code accordingly.
 
 1. Usage
@@ -65,8 +65,8 @@ Training the Model:
 
 To train the model, run the following Python script:
 
-```bash
-python train.py
+         ```bash
+         python train.py
 This will start training the Convolutional Neural Network (CNN) model for 10 epochs. During training, the loss and validation accuracy will be printed for each epoch.
 
 2. Model Evaluation:
@@ -101,8 +101,6 @@ This project is open-source and available under the MIT License.
 Acknowledgments
 Thanks to the contributors and open-source community for the resources and libraries that made this project possible.
 Special thanks to the dataset providers for making the fruit image dataset available.
-markdown
-Copy code
 
 ### **Explanation:**
 
