@@ -86,8 +86,7 @@ model = SimpleCNN()
 model.load_state_dict(torch.load('fruit_classifier.pth'))
 model.eval()
 Project Structure
-graphql
-         ```bash
+```graphql
          fruit-classification/
          ├── data/                # Dataset folder containing train, valid, test data
          ├── train.py             # Script to train the model
