@@ -22,18 +22,18 @@ To get started with this project, follow these steps:
    git clone https://github.com/your-username/fruit-classification.git
    cd fruit-classification
 2. **Install the necessary dependencies:**
-
 You can install the required libraries using pip:
 
   ```bash
   pip install -r requirements.txt
   Here is the list of required packages:
 
-torch
-torchvision
-Pillow
-numpy
-matplotlib
+   torch
+   torchvision
+   Pillow
+   numpy
+   matplotlib
+
 If you don't have a requirements.txt file yet, you can create it by running pip freeze > requirements.txt.
 
 Dataset
